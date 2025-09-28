@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', serif;
+      background: #fdfdfd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .certificate {
+      width: 800px;
+      height: 600px;
+      border: 10px solid #d4af37; /* gold border */
+      padding: 40px;
+      position: relative;
+      background: white;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    .certificate h1 {
+      text-align: center;
+      font-size: 36px;
+      margin: 0;
+      color: navy;
+    }
+    .certificate h2 {
+      text-align: center;
+      margin: 5px 0;
+      font-size: 14px;
+      font-weight: normal;
+      color: #444;
+    }
+    .certificate p {
+      text-align: center;
+      font-size: 16px;
+      margin: 20px 0;
+      color: #222;
+    }
+    .name {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #0c2242;
+    }
+    .course {
+      text-align: center;
+      font-style: italic;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 50px;
+    }
+    .footer .date, .footer .signature {
+      text-align: center;
+      width: 200px;
+    }
+    .footer p {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    .badge {
+      position: absolute;
+      top: 30px;
+      left: 40px;
+      background: navy;
+      color: white;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      border: 5px solid gold;
+      font-size: 14px;
+    }
+    .decor-left {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      color: goldenrod;
+      font-size: 40px;
+    }
+    .decor-right {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: goldenrod;
+      font-size: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="certificate">
+    <div class="badge">LOGO</div>
+    <div class="decor-left">❦</div>
+    <div class="decor-right">❦</div>
+    <h1>Certificate</h1>
+    <h2>OF COMPLETION</h2>
+    <p>This is to Certify that</p>
+    <p class="name">JATIN KUMAR RAJPUT</p>
+    <p>has successfully completed</p>
+    <p class="course">English Typing Course</p>
+    <p>From TechView Team</p>
+
+    <div class="footer">
+      <div class="date">
+        <p>May 3, 2021</p>
+        <p><strong>DATE</strong></p>
+      </div>
+      <div class="signature">
+        <p>_</p>
+        <p><strong>SIGNATURE</strong></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
